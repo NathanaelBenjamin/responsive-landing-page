@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./Assets/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Responsive Landing Page</title>
 </head>
 <body>
@@ -49,7 +50,7 @@
         </section>
 
         <main class="main-section">
-            <div class="feature-card">
+            <div class="feature-card" data-aos="fade-left">
                 <div class="card-text">
                     <h3>Grow Together</h3>
                     <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
@@ -60,7 +61,7 @@
                 </div>
             </div>
 
-            <div class="feature-card">
+            <div class="feature-card" data-aos="fade-right">
                 <div class="card-image">
                     <img src="./Assets/illustration-flowing-conversation.svg" alt="">
                 </div>
@@ -73,7 +74,7 @@
                 </div>
             </div>
 
-            <div class="feature-card">
+            <div class="feature-card" data-aos="fade-left">
                     <div class="card-text">
                         <h3>Your Users</h3>
                         <p>
@@ -196,5 +197,10 @@
             </div>
         </footer>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
