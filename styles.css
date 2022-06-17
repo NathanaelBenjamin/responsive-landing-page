@@ -148,7 +148,7 @@ main{
 
 .card-absolute{
     position: absolute;
-    top: -8.7rem;
+    top: -8rem;
     left: 34%;
     background-color: var(--white);
     width: 30%;
